@@ -17,10 +17,7 @@ namespace SIL.LiftBridge
 			{
 				if (components != null)
 					components.Dispose();
-				if (_bootstrapper != null)
-					_bootstrapper.Dispose();
 			}
-			_bootstrapper = null;
 			base.Dispose(disposing);
 		}
 
