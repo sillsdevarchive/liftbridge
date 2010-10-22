@@ -29,22 +29,22 @@ namespace SIL.LiftBridge
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.SuspendLayout();
-			// 
-			// LiftBridgeDlg
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-			this.ClientSize = new System.Drawing.Size(856, 520);
-			this.MaximizeBox = false;
-			this.MinimizeBox = false;
-			this.MinimumSize = new System.Drawing.Size(525, 490);
-			this.Name = "LiftBridgeDlg";
-			this.ShowIcon = false;
-			this.ShowInTaskbar = false;
-			this.Text = "FLEx Bridge: ";
-			this.ResumeLayout(false);
+            this.SuspendLayout();
+            // 
+            // LiftBridgeDlg
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ClientSize = new System.Drawing.Size(856, 520);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(525, 490);
+            this.Name = "LiftBridgeDlg";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.Text = "LIFT Bridge: ";
+            this.ResumeLayout(false);
 
 		}
 
