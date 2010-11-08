@@ -2,7 +2,7 @@ using System.Windows.Forms;
 
 namespace SIL.LiftBridge.View
 {
-	public sealed partial class LiftBridgeDlg : ILiftBridgeView
+	internal sealed partial class LiftBridgeDlg : ILiftBridgeView
 	{
 		internal LiftBridgeDlg()
 		{
@@ -43,6 +43,6 @@ namespace SIL.LiftBridge.View
 			ResumeLayout(true);
 		}
 
-		#endregion
+		#endregion Implementation of ILiftBridgeView
 	}
 }

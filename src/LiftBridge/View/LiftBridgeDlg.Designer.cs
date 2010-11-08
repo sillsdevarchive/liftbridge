@@ -2,7 +2,7 @@ using System.Windows.Forms;
 
 namespace SIL.LiftBridge.View
 {
-	public partial class LiftBridgeDlg : Form
+	internal partial class LiftBridgeDlg : Form
 	{
 		/// <summary>
 		/// Required designer variable.
