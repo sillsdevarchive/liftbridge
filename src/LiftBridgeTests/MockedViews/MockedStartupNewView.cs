@@ -1,3 +1,4 @@
+using System;
 using SIL.LiftBridge.View;
 
 namespace LiftBridgeTests.MockedViews
@@ -19,5 +20,11 @@ namespace LiftBridgeTests.MockedViews
 		{
 			Startup(this, new StartupNewEventArgs(SharedSystemType.Extant, ExtantRepoSource.Internet));
 		}
+
+		#region Implementation of IActiveView
+
+		public event EventHandler CloseApp;
+
+		#endregion
 	}
 }

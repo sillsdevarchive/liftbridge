@@ -1,3 +1,5 @@
+using System;
+
 namespace SIL.LiftBridge.View
 {
 	/// <summary>
@@ -5,5 +7,10 @@ namespace SIL.LiftBridge.View
 	/// </summary>
 	internal interface IActiveView
 	{
+		/// <summary>
+		/// Export the internally held lexicon into the LIFT file given in LiftBridgeEventArgs.
+		/// Handlers should create the file, if needed.
+		/// </summary>
+		event EventHandler CloseApp;
 	}
 }
