@@ -1,0 +1,26 @@
+src/_ReSharper.LiftBridge/*
+src/LiftBridge/bin/*
+src/LiftBridge/obj/*
+src/LiftBridgeTests/bin/*
+src/LiftBridgeTests/obj/*
+src/LiftBridge/LiftBridge.csproj.ReSharper.user
+output/*
+src/LiftBridgeCore/bin/*
+src/LiftBridgeCore/obj/*
+LiftBridge VS2010.5.1.ReSharper.user
+src/LiftBridge/LiftBridge.csproj.user
+src/LiftBridgeCore/LiftBridgeCore.csproj.user
+LiftBridge VS2010.suo
+src/LiftBridgeTests/LiftBridgeTests.csproj.user
+gexp
+_ReSharper.LiftBridge VS2010/*
+DistFiles/Mercurial/*
+DistFiles/Mercurial/MercurialExtensions/*
+
+LiftBridge VS2010.userprefs
+src/LiftBridge/LiftBridge.pidb
+src/LiftBridgeCore/LiftBridgeCore.pidb
+src/LiftBridgeTests/LiftBridgeTests.pidb
+LiftBridge VS2010.6.1.ReSharper.user
+LiftBridge VS2010.sln.DotSettings.user
+src/LiftBridge/LiftBridge.csproj.DotSettings.user
